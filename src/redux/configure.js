@@ -7,7 +7,6 @@ const enhancers = compose(
 )
 
 export default (initialState) => {
-  console.log(initialState);
   const store =createStore(rootReducer, initialState, enhancers);
 
   if (module.hot) {
