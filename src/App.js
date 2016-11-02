@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Sidebar from './components/Sidebar/Sidebar'
+import Map from './components/CompanyMap/Map';
 
+import './App.scss';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to asdfasdf</h2>
+      <div className="app">
+        <Sidebar />
+        <div className="content">
+          <Map />
         </div>
-        <p className="App-intro">
-          To get started, <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }

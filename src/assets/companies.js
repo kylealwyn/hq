@@ -1,6 +1,6 @@
 export default [{
   name: 'AirBnb',
-  logo: 'airbnb-logo.png',
+  logo: 'https://yt3.ggpht.com/-QAiTwbM5sIA/AAAAAAAAAAI/AAAAAAAAAAA/p2Z_6jWTxfU/s900-c-k-no-mo-rj-c0xffffff/photo.jpg',
   website: 'http://airbnb.com',
   description: 'Airbnb is an online marketplace that enables people to list, find, and rent vacation homes for a processing fee',
   address: {
@@ -15,7 +15,7 @@ export default [{
   name: 'Dropbox',
   website: 'https://dropbox.com',
   description: 'Dropbox is a file hosting service operated by American company Dropbox, Inc., headquartered in San Francisco, California, that offers cloud storage, file synchronization, personal cloud, and client software.',
-  logo: 'dropbox-logo.png',
+  logo: 'http://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/512/MetroUI-Apps-Dropbox-icon.png',
   address: {
     street: '333 Brannan Street',
     city: 'San Francisco',
@@ -28,7 +28,7 @@ export default [{
   name: 'NASA',
   website: 'https://nasa.gov',
   description: 'The National Aeronautics and Space Administration (NASA) is an independent agency of the executive branch of the United States federal government responsible for the civilian space program as well as aeronautics and aerospace research',
-  logo: 'nasa-logo.png',
+  logo: 'http://www.nasa.gov/sites/all/themes/custom/nasatwo/images/apple-touch-icon-152x152.png',
   address: {
     street: '300 E Street SW',
     city: 'Washington',
@@ -41,7 +41,7 @@ export default [{
   name: 'Google',
   website: 'https://google.com',
   description: 'Google is an American multinational technology company specializing in Internet-related services and products. These include online advertising technologies, search, cloud computing, and software',
-  logo: 'google-logo.png',
+  logo: 'https://www.seeklogo.net/wp-content/uploads/2015/09/new-google-favicon-logo.png',
   address: {
     street: '1600 Amphitheatre Parkway',
     city: 'Mountain View',
@@ -54,7 +54,7 @@ export default [{
   name: 'Pinterest',
   website: 'https://pinterest.com',
   description: 'Pinterest is a catalog of ideas, rather than as a social network, that inspires users to go out and do that thing.',
-  logo: 'pinterest-logo.png',
+  logo: 'https://s-media-cache-ak0.pinimg.com/originals/77/2b/0e/772b0ea79a9de35ad323c7e323a67e94.png',
   address: {
     street: '580 7th Street',
     city: 'San Francisco',
@@ -67,7 +67,7 @@ export default [{
   name: 'Facebook',
   website: 'https://facebook.com',
   description: 'Facebook (stylized as facebook) is a for-profit corporation and online social networking service',
-  logo: 'facebook-logo.png',
+  logo: 'https://www.seeklogo.net/wp-content/uploads/2013/11/facebook-flat-vector-logo-400x400.png',
   address: {
     street: '1 Hacker Way',
     city: 'Menlo Park',
@@ -80,7 +80,7 @@ export default [{
   name: 'Lyft',
   website: 'https://lyft.com',
   description: 'Lyft facilitates peer-to-peer ridesharing by connecting passengers who need a ride with drivers who have a car.',
-  logo: 'lyft-logo.png',
+  logo: 'https://www.codot.gov/safety/seatbelts-carseats/assets/year-of-the-seat-belt/lyft.jpg',
   address: {
     street: '2300 Harrison St',
     city: 'San Francisco',
@@ -93,7 +93,7 @@ export default [{
   name: 'Uber',
   website: 'https://uber.com',
   description: 'Uber allows consumers with smartphones to submit a trip request which is then routed to Uber drivers who use their own cars.',
-  logo: 'uber-logo.png',
+  logo: 'https://lh3.googleusercontent.com/aMoTzec746RIY9GFOKMjipqBShsKos_KxeDtS59tRp4-ePCpGqW2bS-ySyUEL6q3gkA=w300',
   address: {
     street: '1455 Market Street',
     city: 'San Francisco',
