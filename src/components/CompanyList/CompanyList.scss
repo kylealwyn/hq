@@ -1,6 +1,33 @@
 @import '../../styles/variables';
 
-$mobile-cell-width: 225px;
+$mobile-cell-width: 250px;
+$sidebar-bg-color: #eee;
+
+.search-input {
+  appearance: none;
+  background: $sidebar-bg-color;
+  border: 0;
+  border-bottom: 2px solid $gray-medium;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  padding: 0.4rem;
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-family: Raleway;
+  transition: 250ms border;
+
+  &:focus {
+    border-bottom-color: $color-secondary;
+  }
+
+  @media (max-width: $screen-sm) {
+    font-size: 0.85rem;
+  }
+}
 
 .company-list {
   list-style: none;
@@ -10,17 +37,24 @@ $mobile-cell-width: 225px;
 
   @media (max-width: $screen-sm) {
     display: flex;
-    padding: 1rem;
+    align-content: stretch;
   }
 }
 
 .company-cell {
   background: white;
   height: auto;
-  padding: 1rem;
+  padding: 0.75rem;
 
   + .company-cell {
     border-top: 1px solid $gray-light;
+    margin-top: 0.5rem;
+
+    @media (max-width: $screen-sm) {
+      padding: 0.5rem;
+      margin-top: 0;
+      margin-left: 0.5rem;
+    }
   }
 
   .company-cell-header {
@@ -28,11 +62,15 @@ $mobile-cell-width: 225px;
   }
 
   .company-cell-image {
+    border-radius: 4px;
     height: 30px;
     width: 30px;
-    border: 1px solid $gray-light;
-    border-radius: 4px;
     margin-right: 1rem;
+
+    @media (max-width: $screen-sm) {
+      height: 25px;
+      width: 25px;
+    }
   }
 
   .company-content {
@@ -43,6 +81,10 @@ $mobile-cell-width: 225px;
   .company-cell-name {
     margin: 0;
     font-weight: bold;
+
+    @media (max-width: $screen-sm) {
+      font-size: 1rem;
+    }
   }
 
   .company-cell-description {

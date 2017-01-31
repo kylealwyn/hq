@@ -102,4 +102,18 @@ export default [{
     lat: 37.775231,
     lng: -122.417528
   }
+}, {
+  name: 'Quora',
+  website: 'https://quora.com',
+  description: 'Quora is a question-and-answer site where questions are asked, answered, edited and organized by its community of users.',
+  founded: '6/2009',
+  logo: 'http://icons.iconarchive.com/icons/danleech/simple/1024/quora-icon.png',
+  address: {
+    street: '650 Castro Street, Suite 450',
+    city: 'Mountain View',
+    state: 'CA',
+    zip: '94041',
+    lat: 37.387999,
+    lng: -122.082985
+  }
 }]

@@ -1,6 +1,10 @@
 import React, {Component, PropTypes} from 'react';
 
 class CompanyCell extends Component {
+  static propTypes = {
+    company: PropTypes.object
+  }
+
   render() {
     const {company} = this.props;
 
@@ -24,7 +28,7 @@ class CompanyCell extends Component {
           </div>
           <span className="col-xs"></span>
           <div>
-            <i className="ion-forward"></i>
+            <i className="ion-ios-location"></i>
           </div>
         </div>
 

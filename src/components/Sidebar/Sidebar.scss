@@ -1,11 +1,11 @@
 @import '../../styles/variables';
 
-$sidebar-bg-color: #fff;
-$sidebar-width: 375px;
+$sidebar-bg-color: #eee;
+$sidebar-width: 300px;
 
 .sidebar {
   background: $sidebar-bg-color;
-  padding: 1rem 1rem 2rem;
+  padding: 0.5rem;
   position: relative;
   width: $sidebar-width;
   overflow: auto;
@@ -14,40 +14,18 @@ $sidebar-width: 375px;
     overflow: hidden;
     width: 100vw;
     height: auto;
-    padding: 1rem 0 0;
+    padding: 0.5rem;
   }
 }
 
 .app-title {
   color: $color-primary;
   font-family: $font-cursive;
-  text-align: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin-top: 0;
-  text-shadow:  2px 2px 0px pink;
-}
-
-#search-input {
-  appearance: none;
-  background: white;
-  border: 1px solid darken($gray-light, 5%);
-  border-radius: 4px;
-  box-shadow: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  outline: none;
-  padding: 0.4rem;
-  display: block;
-  margin-bottom: 1rem;
-  width: 100%;
-  font-family: Raleway;
-
-  &::placeholder {
-    color: $gray-dark;
-  }
+  text-shadow:  2px 2px 0px $color-secondary;
 
   @media (max-width: $screen-sm) {
-    display: none;
-    // position: fixed;
+    font-size: 1.5rem;
   }
 }
